@@ -1,3 +1,4 @@
+import globalVariables from "./globalVariables";
 class placeOrder {
 
   constructor() {

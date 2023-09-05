@@ -1,6 +1,6 @@
-import GlobalVariables from "./GlobalVariables";
+import globalVariables from "./GlobalVariables";
 
-const golVar = GlobalVariables;
+const golVar = globalVariables;
 class loginPage {
 
   constructor() {

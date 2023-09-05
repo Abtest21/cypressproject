@@ -1,6 +1,5 @@
 
 import faker from 'faker';
-
 const emailValue = faker.internet.email();
 const passwordValue = faker.internet.password();
 
