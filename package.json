@@ -1,11 +1,13 @@
 {
   "name": "cypressproject",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress": "cypress run"
+    "cy:run:staging": "cypress run",
+    "cy:open:staging": "cypress open --env type-of-environment=staging",
+    "cy:open": "cypress open",
+    "cy:run:production": "cypress run"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +15,16 @@
     "cypress": "^13.1.0",
     "cypress-plugin-snapshots": "^1.4.4",
     "faker": "^6.6.6"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abtest21/cypressproject.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Abtest21/cypressproject/issues"
+  },
+  "homepage": "https://github.com/Abtest21/cypressproject#readme",
+  "description": ""
 }
