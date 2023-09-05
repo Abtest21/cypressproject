@@ -2,6 +2,7 @@ import globalVariables from "./globalVariables";
 
 const golVar = globalVariables;
 
+
 class registerPage {
 
   constructor() {
